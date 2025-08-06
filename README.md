@@ -2,7 +2,7 @@
 
 A feature-rich news aggregation platform built with React, Redux Toolkit, and Tailwind CSS that delivers real-time global headlines from multiple sources.
 
-![App Preview](./public/screenshot.gif) <!-- Replace with actual screenshot -->
+![App Preview](./public/logo192.png) <!-- Replace with actual screenshot -->
 
 ## ✨ Key Features
 
