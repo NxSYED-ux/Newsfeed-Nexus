@@ -1,46 +1,53 @@
-# Getting Started with Create React App and Redux
+# 🌐 Newsfeed Nexus | React News Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+A feature-rich news aggregation platform built with React, Redux Toolkit, and Tailwind CSS that delivers real-time global headlines from multiple sources.
 
-## Available Scripts
+![App Preview](./public/screenshot.gif) <!-- Replace with actual screenshot -->
 
-In the project directory, you can run:
+## ✨ Key Features
 
-### `npm start`
+- **📰 Multi-Source News Aggregation**  
+  Fetch headlines from NewsAPI, Reddit, and other public APIs
+- **🌙 Dark/Light Mode Toggle**  
+  Customizable UI themes with persistent settings
+- **🔍 Advanced Search**  
+  Filter by keywords, date ranges, and categories
+- **🗺️ Location-Based Filtering**  
+  View country-specific news with automatic geolocation
+- **⚡ Optimized Performance**  
+  RTK Query caching for fast, efficient data fetching
+- **📱 Fully Responsive**  
+  Mobile-first design with Tailwind CSS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+| Category       | Technologies                                                                                     |
+|----------------|--------------------------------------------------------------------------------------------------|
+| **Frontend**   | React 18, Redux Toolkit, RTK Query                                                               |
+| **Styling**    | Tailwind CSS, Framer Motion                                                                      |
+| **Routing**    | React Router v6                                                                                  |
+| **API**        | NewsAPI.org + 3rd party integrations                                                             |
+| **Testing**    | Jest, React Testing Library                                                                      |
 
-### `npm test`
+## 🚀 Quick Start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
+- Node.js ≥16.x
+- npm ≥8.x or yarn
+- NewsAPI key (free tier available)
 
-### `npm run build`
+### Installation
+```bash
+# Clone repository
+git clone https://github.com/NxSYED-ux/Newsfeed-Nexus
+cd Newsfeed-Nexus
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Install dependencies
+npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Configure environment
+cp .env.example .env.local
+# Add your API keys in .env.local
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Start development server
+npm start
